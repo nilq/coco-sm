@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "coco-sm"
+version = "0.1.0"
+description = "Evaluation of Vision-Language models' multilingual properties in 20 different languages."
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+torch = "^2.5.1"
+uform = "^3.0.3"
+onnxruntime = "^1.20.1"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
